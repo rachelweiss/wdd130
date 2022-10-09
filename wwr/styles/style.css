@@ -25,9 +25,14 @@ nav a:hover {
     color: #65DEF1;
 }
 
-#hero-msg h1, #hero-msg h2, #hero-msg h4 {
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
+
+#hero-msg h2 {
+    text-align: center;
+}
+
 
 .button-box {
     text-align: center;
@@ -103,3 +108,4 @@ h4 {
 #hero-img {
     width: 100%;
 }
+
