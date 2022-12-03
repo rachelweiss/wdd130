@@ -49,8 +49,13 @@ header {
 
 footer {
     display: grid;
-    grid-template-columns: 150px auto ;
-    align-self: right;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-self: center;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background: rgba(162 , 112 , 53 , .7);
 }
 
@@ -67,7 +72,7 @@ footer img:hover {
 }
 
 footer a {
-    text-align: left;
+    text-align: center;
     color: #533E2D;
     text-decoration: none;
     padding: 35px; 
