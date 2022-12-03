@@ -50,7 +50,6 @@ header {
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    align-self: center;
     padding: 25px 50px;
     margin-top: 200px; 
     display: flex;
