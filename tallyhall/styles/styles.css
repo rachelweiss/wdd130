@@ -35,10 +35,10 @@ header {
 
 
 .logo {
-    padding-top: 5px;
     text-align: right;
     width: 80px;
     margin-left: 50 px;
+
 
 }
 
@@ -55,7 +55,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: rgba(162 , 112 , 53 , .7);
+    background: rgba(162 , 112 , 53 , .8 );
 }
 
 footer img {   
@@ -75,6 +75,7 @@ footer a {
     color: #533E2D;
     text-decoration: none;
     padding: 35px; 
+    font-family: "Zilla Slab", "Spectral";
 }
 
 .plan:hover {
@@ -127,3 +128,40 @@ p {
     margin: 0 auto;
     border: 5em;
 }
+
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background: rgba(162 , 112 , 53 , .7);
+    font-family: "Zilla Slab", "Spectral";
+ 
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #533E2D;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+   
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  

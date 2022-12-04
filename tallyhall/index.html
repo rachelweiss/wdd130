@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <header>
+    <header id="navbar">
         <a  href="index.html">
             <img class="logo" src="images/tally_hall_logo_1.png" alt="Tally Hall Logo">
         </a>
-        <nav>
+        <nav >
             <a href="index.html">Home</a>
             <a href="album.html">Album Content</a>
             <a href="faq.html">FAQ</a>
@@ -40,7 +40,20 @@
 
 </div>
 
-
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
 
 </section>
     <footer>
