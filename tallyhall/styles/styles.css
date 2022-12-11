@@ -37,7 +37,7 @@ header {
 .logo {
     text-align: right;
     width: 80px;
-    margin-left: 50 px;
+    margin-left: 50px;
 
 
 }
@@ -198,7 +198,7 @@ ol {
     width: 75%;
     padding: 35px;
     grid-column: 3/4;
-
+    background-color: #533E2D;
     margin: 0 auto;
     border: 5em;
 }
@@ -218,6 +218,35 @@ ol {
  
     z-index: 1;
 } */
+
+.answer {
+    box-shadow: 5px 5px 10px #2c2721; 
+    background-color: #DCE2C8;
+    padding: 20px;
+}
+
+.question {
+    font-family: "Zilla Slab", "Spectral";
+    color: #DCE2C8;
+}
+
+.ban {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.banny {
+    margin-right: 50px;
+    grid-row: 1/2;
+}
+
+.banana {
+width: 90%;
+grid-row: 1/5;
+box-shadow: 5px 5px 1px #2c2721;
+}
 
 .history {
     background-color: #DCE2C8;
@@ -293,4 +322,15 @@ ol {
     ol{
         columns: 1;
     }
+    .banny {
+        line-height: 1.5em;
+       width: 90%;
+        padding: 35px;
+        grid-column: 3/4;
+        border: 5em;
+        box-shadow: 5px 5px 10px #2c2721; 
+        background-color: #DCE2C8;
+        padding: 20px;
+    }
+
   }
